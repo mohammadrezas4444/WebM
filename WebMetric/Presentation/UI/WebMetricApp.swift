@@ -11,7 +11,7 @@ import SwiftUI
 struct WebMetricApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ModuleDI.shared.tasksViewModel.resolve())
         }
     }
 }

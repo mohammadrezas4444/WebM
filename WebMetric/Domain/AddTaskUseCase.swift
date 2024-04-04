@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import Factory
+
+struct AddTaskUseCase {
+
+    @Injected(\ModuleDI.tasksRepository) private var repo
+
+    func execute(_ task: TaskModel) {
+        repo.addTask(task)
+    }
+}

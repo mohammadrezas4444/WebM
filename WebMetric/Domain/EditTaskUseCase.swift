@@ -12,7 +12,7 @@ struct EditTaskUseCase {
 
     @Injected(\ModuleDI.tasksRepository) private var repo
 
-    func execute(_ task: TaskModel) {
-        repo.editTask(task)
+    func execute(task: TaskModel, index: Int) {
+        repo.editTask(task: task, index: index)
     }
 }

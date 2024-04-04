@@ -11,6 +11,18 @@
 		90DEEEB32BBEC1E30058C461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEEB22BBEC1E30058C461 /* ContentView.swift */; };
 		90DEEEB52BBEC1E40058C461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DEEEB42BBEC1E40058C461 /* Assets.xcassets */; };
 		90DEEEB82BBEC1E40058C461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DEEEB72BBEC1E40058C461 /* Preview Assets.xcassets */; };
+		90DEEEC62BBED27C0058C461 /* TasksRepositoryImplementaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEEC52BBED27C0058C461 /* TasksRepositoryImplementaion.swift */; };
+		90DEEEC82BBED2980058C461 /* TasksRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEEC72BBED2980058C461 /* TasksRepository.swift */; };
+		90DEEECA2BBED2C50058C461 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEEC92BBED2C50058C461 /* TaskListViewModel.swift */; };
+		90DEEECC2BBED35E0058C461 /* AddTaskUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEECB2BBED35E0058C461 /* AddTaskUseCase.swift */; };
+		90DEEECE2BBED3680058C461 /* RemoveTaskUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEECD2BBED3680058C461 /* RemoveTaskUseCase.swift */; };
+		90DEEED22BBED3A50058C461 /* DomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEED12BBED3A50058C461 /* DomainModel.swift */; };
+		90DEEED52BBED4FA0058C461 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 90DEEED42BBED4FA0058C461 /* Factory */; };
+		90DEEED82BBEFE7A0058C461 /* ModuleDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEED72BBEFE7A0058C461 /* ModuleDI.swift */; };
+		90DEEEDA2BBF04100058C461 /* GetAllTasksUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEED92BBF04100058C461 /* GetAllTasksUseCase.swift */; };
+		90DEEEDD2BBF061B0058C461 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEEDC2BBF061B0058C461 /* CancelBag.swift */; };
+		90DEEEDF2BBF07740058C461 /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEEDE2BBF07740058C461 /* AddTaskViewModel.swift */; };
+		90DEEEE12BBF09C60058C461 /* EditTaskUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEEE02BBF09C60058C461 /* EditTaskUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,17 @@
 		90DEEEB22BBEC1E30058C461 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90DEEEB42BBEC1E40058C461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90DEEEB72BBEC1E40058C461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90DEEEC52BBED27C0058C461 /* TasksRepositoryImplementaion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksRepositoryImplementaion.swift; sourceTree = "<group>"; };
+		90DEEEC72BBED2980058C461 /* TasksRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksRepository.swift; sourceTree = "<group>"; };
+		90DEEEC92BBED2C50058C461 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		90DEEECB2BBED35E0058C461 /* AddTaskUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskUseCase.swift; sourceTree = "<group>"; };
+		90DEEECD2BBED3680058C461 /* RemoveTaskUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveTaskUseCase.swift; sourceTree = "<group>"; };
+		90DEEED12BBED3A50058C461 /* DomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModel.swift; sourceTree = "<group>"; };
+		90DEEED72BBEFE7A0058C461 /* ModuleDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleDI.swift; sourceTree = "<group>"; };
+		90DEEED92BBF04100058C461 /* GetAllTasksUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllTasksUseCase.swift; sourceTree = "<group>"; };
+		90DEEEDC2BBF061B0058C461 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		90DEEEDE2BBF07740058C461 /* AddTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
+		90DEEEE02BBF09C60058C461 /* EditTaskUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DEEED52BBED4FA0058C461 /* Factory in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +75,11 @@
 		90DEEEAF2BBEC1E30058C461 /* WebMetric */ = {
 			isa = PBXGroup;
 			children = (
-				90DEEEB02BBEC1E30058C461 /* WebMetricApp.swift */,
-				90DEEEB22BBEC1E30058C461 /* ContentView.swift */,
+				90DEEEDB2BBF060E0058C461 /* Utilities */,
+				90DEEED62BBEFE0E0058C461 /* DI */,
+				90DEEEC02BBEC6630058C461 /* Presentation */,
+				90DEEEC22BBEC6710058C461 /* Domain */,
+				90DEEEC12BBEC66C0058C461 /* Data */,
 				90DEEEB42BBEC1E40058C461 /* Assets.xcassets */,
 				90DEEEB62BBEC1E40058C461 /* Preview Content */,
 			);
@@ -65,6 +92,70 @@
 				90DEEEB72BBEC1E40058C461 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90DEEEC02BBEC6630058C461 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				90DEEEC42BBEC6820058C461 /* ViewModel */,
+				90DEEEC32BBEC67E0058C461 /* UI */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		90DEEEC12BBEC66C0058C461 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				90DEEEC52BBED27C0058C461 /* TasksRepositoryImplementaion.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		90DEEEC22BBEC6710058C461 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				90DEEEC72BBED2980058C461 /* TasksRepository.swift */,
+				90DEEECB2BBED35E0058C461 /* AddTaskUseCase.swift */,
+				90DEEECD2BBED3680058C461 /* RemoveTaskUseCase.swift */,
+				90DEEEE02BBF09C60058C461 /* EditTaskUseCase.swift */,
+				90DEEED92BBF04100058C461 /* GetAllTasksUseCase.swift */,
+				90DEEED12BBED3A50058C461 /* DomainModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		90DEEEC32BBEC67E0058C461 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				90DEEEB02BBEC1E30058C461 /* WebMetricApp.swift */,
+				90DEEEB22BBEC1E30058C461 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		90DEEEC42BBEC6820058C461 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90DEEEC92BBED2C50058C461 /* TaskListViewModel.swift */,
+				90DEEEDE2BBF07740058C461 /* AddTaskViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		90DEEED62BBEFE0E0058C461 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				90DEEED72BBEFE7A0058C461 /* ModuleDI.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		90DEEEDB2BBF060E0058C461 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				90DEEEDC2BBF061B0058C461 /* CancelBag.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +174,9 @@
 			dependencies = (
 			);
 			name = WebMetric;
+			packageProductDependencies = (
+				90DEEED42BBED4FA0058C461 /* Factory */,
+			);
 			productName = WebMetric;
 			productReference = 90DEEEAD2BBEC1E30058C461 /* WebMetric.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +205,9 @@
 				Base,
 			);
 			mainGroup = 90DEEEA42BBEC1E30058C461;
+			packageReferences = (
+				90DEEED32BBED4FA0058C461 /* XCRemoteSwiftPackageReference "Factory" */,
+			);
 			productRefGroup = 90DEEEAE2BBEC1E30058C461 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +234,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DEEECC2BBED35E0058C461 /* AddTaskUseCase.swift in Sources */,
+				90DEEEC62BBED27C0058C461 /* TasksRepositoryImplementaion.swift in Sources */,
+				90DEEEDF2BBF07740058C461 /* AddTaskViewModel.swift in Sources */,
+				90DEEEDD2BBF061B0058C461 /* CancelBag.swift in Sources */,
 				90DEEEB32BBEC1E30058C461 /* ContentView.swift in Sources */,
+				90DEEECA2BBED2C50058C461 /* TaskListViewModel.swift in Sources */,
+				90DEEEC82BBED2980058C461 /* TasksRepository.swift in Sources */,
+				90DEEEE12BBF09C60058C461 /* EditTaskUseCase.swift in Sources */,
+				90DEEED82BBEFE7A0058C461 /* ModuleDI.swift in Sources */,
 				90DEEEB12BBEC1E30058C461 /* WebMetricApp.swift in Sources */,
+				90DEEECE2BBED3680058C461 /* RemoveTaskUseCase.swift in Sources */,
+				90DEEED22BBED3A50058C461 /* DomainModel.swift in Sources */,
+				90DEEEDA2BBF04100058C461 /* GetAllTasksUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		90DEEED32BBED4FA0058C461 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90DEEED42BBED4FA0058C461 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90DEEED32BBED4FA0058C461 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90DEEEA52BBEC1E30058C461 /* Project object */;
 }

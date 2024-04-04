@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import Factory
+
+struct RemoveTaskUseCase {
+
+    @Injected(\ModuleDI.tasksRepository) private var repo
+
+    func execute(_ task: TaskModel) {
+        repo.removeTask(task)
+    }
+}
